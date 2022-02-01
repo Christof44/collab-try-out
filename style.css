@@ -1,6 +1,17 @@
 body{
     margin: 0;
+    background-color: beige;
 }
 nav{
     background-color: burlywood;
+}
+
+form{
+    background-color: cadetblue;
+    padding-top: 25px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
 }
