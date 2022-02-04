@@ -1,17 +1,67 @@
-body{
-    margin: 0;
-    background-color: beige;
+body {
+  margin: 0;
+  background-color: beige;
 }
-nav{
-    background-color: burlywood;
+nav {
+  background-color: burlywood;
 }
+
+
+#grid {
+    width: 1200px;
+    margin: 100px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
 
 form{
     background-color: cadetblue;
     padding-top: 25px;
+
 }
 
-.container{
-    width: 1200px;
-    margin: auto;
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+input[type='text'],
+input[type='email'] {
+  height: 25px;
+  color: #eee;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 150px;
+  width: 95%;
+}
+
+.btn {
+  background: rgb(82, 92, 185);
+  height: 50px;
+  border: none;
+}
+
+label {
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgb(63, 167, 199);
+}
+
+input[type='submit'] {
+  width: 95%;
+  color: #fff;
+}
+
+a:link {
+  color: rgb(82, 92, 185);
+}
+
+h1 {
+  text-align: center;
 }
