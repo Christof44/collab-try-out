@@ -6,9 +6,19 @@ nav {
   background-color: burlywood;
 }
 
-form {
-  background-color: cadetblue;
-  padding: 25px;
+
+#grid {
+    width: 1200px;
+    margin: 100px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+
+form{
+    background-color: cadetblue;
+    padding-top: 25px;
+
 }
 
 .container {
