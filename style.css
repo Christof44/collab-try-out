@@ -6,6 +6,12 @@ nav {
   background-color: burlywood;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 #grid {
     width: 1200px;
@@ -14,6 +20,8 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
+
+}
 
 form{
     background-color: cadetblue;
@@ -64,4 +72,23 @@ a:link {
 
 h1 {
   text-align: center;
+}
+
+footer {
+    background-color: #eee;
+}
+
+#list-section {
+    width: 1200px;
+    height: 180px;
+    margin: 200px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+
+}
+
+#list-section ul {
+    padding: 70px 0 0 100px;
+    list-style-type: none;
 }
