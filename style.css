@@ -2,55 +2,95 @@ body {
   margin: 0;
   background-color: beige;
 }
-nav {
+
+header {
+  padding-top: 10px;
+  width: 50%;
+  font-size: 36px;
+}
+
+.align {
+  display: flex;
+  padding-top: 23px;
+  text-align: center;
+}
+
+.navigatie-header {
   background-color: burlywood;
+  height: 100px;
+}
+nav {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+nav a:link {
+  background: rgb(82, 92, 185);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+nav a:link:hover {
+  background: rgb(63, 167, 199);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 
 #grid {
-    width: 1200px;
-    margin: 100px auto 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-
+  width: 1200px;
+  margin: 100px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 
-form{
-    background-color: cadetblue;
-    padding-top: 25px;
-
+form {
+  background-color: cadetblue;
+  padding: 25px;
 }
 
 .container {
-  width: 500px;
-  margin: auto;
+  width: 700px;
+  margin: 100px auto;
 }
 
 input[type='text'],
 input[type='email'] {
-  height: 25px;
+  height: 40px;
   color: #eee;
   width: 95%;
   margin-bottom: 20px;
+  border: none;
 }
 
 textarea {
   height: 150px;
   width: 95%;
+  border: none;
+  margin-bottom: 10px;
 }
 
 .btn {
   background: rgb(82, 92, 185);
   height: 50px;
   border: none;
+  margin-top: 10px;
 }
 
 label {
@@ -70,25 +110,20 @@ a:link {
   color: rgb(82, 92, 185);
 }
 
-h1 {
-  text-align: center;
-}
-
 footer {
-    background-color: #eee;
+  background-color: burlywood;
 }
 
 #list-section {
-    width: 1200px;
-    height: 180px;
-    margin: 200px auto 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-
+  width: 1200px;
+  height: 180px;
+  margin: 200px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
 }
 
 #list-section ul {
-    padding: 70px 0 0 100px;
-    list-style-type: none;
+  padding: 70px 0 0 100px;
+  list-style-type: none;
 }
